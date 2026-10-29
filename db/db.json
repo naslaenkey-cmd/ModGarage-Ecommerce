@@ -1,0 +1,337 @@
+{
+  "products": [
+    
+
+      {
+      "id": "1",
+      "name": "Sport Rear Spoiler",
+      "category": "Exterior Upgrades",
+      "price": 8500,
+      "description": "A sporty rear spoiler designed to enhance your car's exterior styling.",
+      "stock": 8,
+      "image": "https://placehold.co/600x400?text=Sport+Rear+Spoiler"
+    },
+    {
+      "id": "2",
+      "name": "Front Grille Upgrade",
+      "category": "Exterior Upgrades",
+      "price": 4200,
+      "description": "A bold front grille upgrade for a sharper front-end look.",
+      "stock": 12,
+      "image": "https://placehold.co/600x400?text=Front+Grille+Upgrade"
+    },
+    {
+      "id": "3",
+      "name": "Side Skirt Set",
+      "category": "Exterior Upgrades",
+      "price": 6900,
+      "description": "A matching pair of side skirts for a cleaner, sportier profile.",
+      "stock": 6,
+      "image": "https://placehold.co/600x400?text=Side+Skirt+Set"
+    },
+    {
+      "id": "4",
+      "name": "Front Bumper Lip",
+      "category": "Exterior Upgrades",
+      "price": 3500,
+      "description": "A front bumper lip that adds a low-profile sporty appearance.",
+      "stock": 10,
+      "image": "https://placehold.co/600x400?text=Front+Bumper+Lip"
+    },
+    {
+      "id": "5",
+      "name": "Universal Mud Flaps",
+      "category": "Exterior Upgrades",
+      "price": 1200,
+      "description": "A set of durable mud flaps to help protect the bodywork from road spray.",
+      "stock": 20,
+      "image": "https://placehold.co/600x400?text=Universal+Mud+Flaps"
+    },
+    {
+      "id": "6",
+      "name": "Premium Seat Cover Set",
+      "category": "Interior Upgrades",
+      "price": 5200,
+      "description": "A comfortable seat cover set designed to refresh your car interior.",
+      "stock": 9,
+      "image": "https://placehold.co/600x400?text=Premium+Seat+Cover+Set"
+    },
+    {
+      "id": "7",
+      "name": "Sport Steering Wheel",
+      "category": "Interior Upgrades",
+      "price": 7800,
+      "description": "A sporty steering wheel upgrade for a more engaging cabin feel.",
+      "stock": 5,
+      "image": "https://placehold.co/600x400?text=Sport+Steering+Wheel"
+    },
+    {
+      "id": "8",
+      "name": "All-Weather Floor Mats",
+      "category": "Interior Upgrades",
+      "price": 2400,
+      "description": "Easy-to-clean floor mats that help protect the car's flooring.",
+      "stock": 15,
+      "image": "https://placehold.co/600x400?text=All-Weather+Floor+Mats"
+    },
+    {
+      "id": "9",
+      "name": "Aluminium Gear Knob",
+      "category": "Interior Upgrades",
+      "price": 1600,
+      "description": "A stylish aluminium-look gear knob for a neat interior upgrade.",
+      "stock": 18,
+      "image": "https://placehold.co/600x400?text=Aluminium+Gear+Knob"
+    },
+    {
+      "id": "10",
+      "name": "Dashboard Organizer",
+      "category": "Interior Upgrades",
+      "price": 850,
+      "description": "A compact organizer for keeping small cabin essentials in place.",
+      "stock": 25,
+      "image": "https://placehold.co/600x400?text=Dashboard+Organizer"
+    },
+
+     {
+      "id": "11",
+      "name": "LED Headlight Pair",
+      "category": "Lighting",
+      "price": 3200,
+      "description": "A pair of LED headlights for bright, clear road illumination.",
+      "stock": 10,
+      "image": "https://placehold.co/600x400?text=LED+Headlight+Pair"
+    },
+   
+    {
+      "id": "12",
+      "name": "LED Fog Light Kit",
+      "category": "Lighting",
+      "price": 2100,
+      "description": "A fog light kit designed to improve visibility in misty conditions.",
+      "stock": 7,
+      "image": "https://placehold.co/600x400?text=LED+Fog+Light+Kit"
+    },
+    {
+      "id": "13",
+      "name": "Red LED Tail Light Set",
+      "category": "Lighting",
+      "price": 4600,
+      "description": "A tail light set that refreshes the rear appearance of your vehicle.",
+      "stock": 6,
+      "image": "https://placehold.co/600x400?text=Red+LED+Tail+Light+Set"
+    },
+    {
+      "id": "14",
+      "name": "Interior Ambient LED Kit",
+      "category": "Lighting",
+      "price": 1450,
+      "description": "An ambient lighting kit for adding a subtle glow inside the cabin.",
+      "stock": 14,
+      "image": "https://placehold.co/600x400?text=Interior+Ambient+LED+Kit"
+    },
+    {
+      "id": "15",
+      "name": "Sequential Indicator Pair",
+      "category": "Lighting",
+      "price": 1850,
+      "description": "A pair of sequential-style indicator lamps for a modern look.",
+      "stock": 11,
+      "image": "https://placehold.co/600x400?text=Sequential+Indicator+Pair"
+    },
+    {
+      "id": "16",
+      "name": "17-inch Alloy Wheel",
+      "category": "Wheels & Tyres",
+      "price": 9200,
+      "description": "A modern 17-inch alloy wheel; confirm fitment before purchase.",
+      "stock": 4,
+      "image": "https://placehold.co/600x400?text=17-inch+Alloy+Wheel"
+    },
+    {
+      "id": "17",
+      "name": "Performance Road Tyre",
+      "category": "Wheels & Tyres",
+      "price": 5600,
+      "description": "A road tyre option; select the correct size for your vehicle.",
+      "stock": 8,
+      "image": "https://placehold.co/600x400?text=Performance+Road+Tyre"
+    },
+    {
+      "id": "18",
+      "name": "Sport Wheel Cover Set",
+      "category": "Wheels & Tyres",
+      "price": 1800,
+      "description": "A set of wheel covers for a refreshed wheel appearance.",
+      "stock": 13,
+      "image": "https://placehold.co/600x400?text=Sport+Wheel+Cover+Set"
+    },
+    {
+      "id": "19",
+      "name": "Locking Wheel Nut Set",
+      "category": "Wheels & Tyres",
+      "price": 1250,
+      "description": "A locking wheel nut set intended to help deter wheel theft.",
+      "stock": 16,
+      "image": "https://placehold.co/600x400?text=Locking+Wheel+Nut+Set"
+    },
+    {
+      "id": "20",
+      "name": "Wheel Spacer Pair",
+      "category": "Wheels & Tyres",
+      "price": 2200,
+      "description": "A pair of wheel spacers; professional fitment and compatibility checks are required.",
+      "stock": 5,
+      "image": "https://placehold.co/600x400?text=Wheel+Spacer+Pair"
+    },
+
+    {
+      "id": "21",
+      "name": "High-Flow Air Filter",
+      "category": "Performance Parts",
+      "price": 1900,
+      "description": "A replacement air filter for compatible vehicle intake systems.",
+      "stock": 12,
+      "image": "https://placehold.co/600x400?text=High-Flow+Air+Filter"
+    },
+    {
+      "id": "22",
+      "name": "Cat-Back Exhaust Component",
+      "category": "Performance Parts",
+      "price": 14500,
+      "description": "An exhaust upgrade component; verify local regulations and vehicle compatibility.",
+      "stock": 3,
+      "image": "https://placehold.co/600x400?text=Cat-Back+Exhaust+Component"
+    },
+    {
+      "id": "23",
+      "name": "Sport Suspension Kit",
+      "category": "Performance Parts",
+      "price": 28500,
+      "description": "A suspension upgrade kit for compatible vehicles; professional installation required.",
+      "stock": 2,
+      "image": "https://placehold.co/600x400?text=Sport+Suspension+Kit"
+    },
+    {
+      "id": "24",
+      "name": "Performance Brake Pad Set",
+      "category": "Performance Parts",
+      "price": 3800,
+      "description": "A brake pad set for compatible vehicles; choose the correct specification.",
+      "stock": 7,
+      "image": "https://placehold.co/600x400?text=Performance+Brake+Pad+Set"
+    },
+    {
+      "id": "25",
+      "name": "Iridium Spark Plug Set",
+      "category": "Performance Parts",
+      "price": 2600,
+      "description": "A set of iridium spark plugs for compatible engines.",
+      "stock": 10,
+      "image": "https://placehold.co/600x400?text=Iridium+Spark+Plug+Set"
+    },
+    {
+      "id": "26",
+      "name": "Car Wash Shampoo",
+      "category": "Car Care & Detailing",
+      "price": 550,
+      "description": "A car wash shampoo formulated for routine exterior cleaning.",
+      "stock": 30,
+      "image": "https://placehold.co/600x400?text=Car+Wash+Shampoo"
+    },
+    {
+      "id": "27",
+      "name": "Carnauba Wax Polish",
+      "category": "Car Care & Detailing",
+      "price": 950,
+      "description": "A wax polish for adding shine and a protective finish to paintwork.",
+      "stock": 22,
+      "image": "https://placehold.co/600x400?text=Carnauba+Wax+Polish"
+    },
+    {
+      "id": "28",
+      "name": "Paint Polishing Compound",
+      "category": "Car Care & Detailing",
+      "price": 780,
+      "description": "A polishing compound for suitable automotive paint finishes; follow product directions.",
+      "stock": 18,
+      "image": "https://placehold.co/600x400?text=Paint+Polishing+Compound"
+    },
+    {
+      "id": "29",
+      "name": "Microfiber Towel Pack",
+      "category": "Car Care & Detailing",
+      "price": 450,
+      "description": "A pack of soft microfiber towels for cleaning and drying.",
+      "stock": 40,
+      "image": "https://placehold.co/600x400?text=Microfiber+Towel+Pack"
+    },
+     {
+      "id": "30",
+      "name": "Car Detailing Kit",
+      "category": "Car Care & Detailing",
+      "price": 1850,
+      "description": "A starter kit of car-care tools for interior and exterior detailing.",
+      "stock": 12,
+      "image": "https://placehold.co/600x400?text=Car+Detailing+Kit"
+    },
+    {
+      "id": "31",
+      "name": "Full HD Dash Camera",
+      "category": "Electronics & Accessories",
+      "price": 4200,
+      "description": "A dashboard camera for recording journeys; check memory-card compatibility.",
+      "stock": 7,
+      "image": "https://placehold.co/600x400?text=Full+HD+Dash+Camera"
+    },
+    {
+      "id": "32",
+      "name": "Parking Sensor Kit",
+      "category": "Electronics & Accessories",
+      "price": 2350,
+      "description": "A parking sensor kit to help with low-speed parking awareness.",
+      "stock": 9,
+      "image": "https://placehold.co/600x400?text=Parking+Sensor+Kit"
+    },
+    {
+      "id": "33",
+      "name": "Adjustable Phone Holder",
+      "category": "Electronics & Accessories",
+      "price": 650,
+      "description": "An adjustable phone holder for convenient in-car navigation.",
+      "stock": 28,
+      "image": "https://placehold.co/600x400?text=Adjustable+Phone+Holder"
+    },
+    {
+      "id": "34",
+      "name": "Dual USB Car Charger",
+      "category": "Electronics & Accessories",
+      "price": 550,
+      "description": "A compact car charger with two USB charging ports.",
+      "stock": 24,
+      "image": "https://placehold.co/600x400?text=Dual+USB+Car+Charger"
+    },
+    {
+      "id": "35",
+      "name": "Bluetooth FM Adapter",
+      "category": "Electronics & Accessories",
+      "price": 1100,
+      "description": "A Bluetooth FM adapter for compatible car audio systems.",
+      "stock": 15,
+      "image": "https://placehold.co/600x400?text=Bluetooth+FM+Adapter"
+    }
+
+
+
+  ],
+  "users": [
+    {
+      "fullName": "nslaah",
+      "email": "nasla@gmail.com",
+      "password": "111111",
+      "id": "GK1FlNs42-M"
+    }
+  ],
+  "orders": [],
+  "$schema": "./node_modules/json-server/schema.json"
+}

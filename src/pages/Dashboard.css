@@ -1,0 +1,81 @@
+
+/* ================================
+   MODGARAGE DASHBOARD
+================================ */
+
+.dashboard {
+  min-height: calc(100vh - 80px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 25px;
+  background:
+    radial-gradient(
+      circle at 50% 30%,
+      rgba(214, 179, 106, 0.09),
+      transparent 45%
+    ),
+    #080808;
+  color: #f5f3ee;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+}
+
+/* Main heading */
+
+.dashboard h1 {
+  margin-bottom: 25px;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: clamp(42px, 6vw, 72px);
+  font-weight: 400;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.dashboard h1::after {
+  content: "";
+  display: block;
+  width: 75px;
+  height: 3px;
+  margin: 18px auto 0;
+  background: #d6b36a;
+}
+
+/* Welcome message */
+
+.dashboard p:first-of-type {
+  margin-bottom: 12px;
+  color: #d6b36a;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+/* Login confirmation */
+
+.dashboard p:last-of-type {
+  color: #999;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+/* Responsive */
+
+@media (max-width: 600px) {
+  .dashboard {
+    min-height: calc(100vh - 65px);
+    padding: 40px 20px;
+  }
+
+  .dashboard h1 {
+    font-size: 44px;
+  }
+
+  .dashboard p:first-of-type {
+    font-size: 19px;
+  }
+
+  .dashboard p:last-of-type {
+    font-size: 13px;
+  }
+}

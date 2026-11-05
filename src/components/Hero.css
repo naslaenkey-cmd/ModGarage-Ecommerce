@@ -1,0 +1,309 @@
+
+/* =========================================
+   MODGARAGE — PREMIUM HERO SECTION
+========================================= */
+
+.hero {
+  position: relative;
+  min-height: 720px;
+  height: calc(100vh - 80px);
+  max-height: 900px;
+  width: 100%;
+  overflow: hidden;
+
+  display: flex;
+  align-items: center;
+
+  background-color: #090909;
+  background-size: cover;
+  background-position: center 55%;
+  background-repeat: no-repeat;
+
+  color: #ffffff;
+  isolation: isolate;
+}
+
+/* DARK CINEMATIC OVERLAY */
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+
+  background:
+    linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.96) 0%,
+      rgba(0, 0, 0, 0.78) 38%,
+      rgba(0, 0, 0, 0.25) 75%,
+      rgba(0, 0, 0, 0.35) 100%
+    ),
+    linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.8),
+      transparent 35%,
+      rgba(0, 0, 0, 0.2)
+    );
+}
+
+/* TOP BRAND LABEL */
+
+.hero-navbar-label {
+  position: absolute;
+  top: 35px;
+  left: 7%;
+  right: 7%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  font-size: 11px;
+  letter-spacing: 3px;
+  color: #c8c8c8;
+}
+
+.hero-navbar-label span:first-child {
+  color: #d6b36a;
+  font-size: 18px;
+  font-weight: 900;
+  letter-spacing: 4px;
+}
+
+/* MAIN CONTENT */
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  width: min(700px, 85%);
+  margin-left: 9%;
+  margin-top: 25px;
+}
+
+.hero-subtitle {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  color: #d6b36a;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 4px;
+}
+
+.hero-subtitle span {
+  width: 35px;
+  height: 1px;
+  background: #d6b36a;
+}
+
+.hero-content h1 {
+  margin: 25px 0;
+
+  font-family: "Bebas Neue", "Impact", sans-serif;
+  font-size: clamp(75px, 10vw, 145px);
+  line-height: 0.85;
+  font-weight: 900;
+  letter-spacing: -2px;
+  text-transform: uppercase;
+
+  color: #f5f3ee;
+}
+
+.hero-content h1 span {
+  color: #d6b36a;
+}
+
+.hero-description {
+  max-width: 430px;
+  margin: 28px 0;
+
+  color: #b5b5b5;
+  font-size: 14px;
+  line-height: 1.9;
+  letter-spacing: 0.5px;
+}
+
+/* BUTTON */
+
+.hero-actions {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  flex-wrap: wrap;
+  margin-top: 35px;
+}
+
+.hero-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 35px;
+
+  padding: 17px 24px;
+
+  background: #d6b36a;
+  color: #111111;
+
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+
+  transition: 0.3s ease;
+}
+
+.hero-button span {
+  font-size: 18px;
+}
+
+.hero-button:hover {
+  background: #f0d18b;
+  transform: translateY(-4px);
+}
+
+.hero-caption {
+  color: #999999;
+  font-size: 9px;
+  letter-spacing: 2px;
+}
+
+/* CAR LABEL */
+
+.hero-car-label {
+  position: absolute;
+  right: 10%;
+  bottom: 23%;
+
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.label-cross {
+  color: #d6b36a;
+  font-size: 32px;
+}
+
+.hero-car-label div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.hero-car-label strong {
+  font-size: 17px;
+  letter-spacing: 3px;
+}
+
+.hero-car-label small {
+  color: #b4b4b4;
+  font-size: 9px;
+  letter-spacing: 2px;
+}
+
+/* BOTTOM LABELS */
+
+.hero-bottom {
+  position: absolute;
+  bottom: 30px;
+  left: 7%;
+  right: 7%;
+
+  display: flex;
+  justify-content: space-between;
+
+  color: #999999;
+  font-size: 9px;
+  letter-spacing: 2px;
+}
+
+.hero-index {
+  position: absolute;
+  right: 7%;
+  top: 50%;
+
+  color: #d6b36a;
+  font-size: 11px;
+  letter-spacing: 2px;
+}
+
+/* TABLET */
+
+@media (max-width: 900px) {
+  .hero {
+    min-height: 650px;
+  }
+
+  .hero-car-label {
+    right: 7%;
+  }
+
+  .hero-content {
+    margin-left: 6%;
+  }
+}
+
+/* MOBILE */
+
+@media (max-width: 600px) {
+  .hero {
+    min-height: 700px;
+    height: 85vh;
+    background-position: 62% center;
+  }
+
+  .hero-navbar-label {
+    top: 25px;
+    left: 6%;
+    right: 6%;
+  }
+
+  .hero-navbar-label span {
+    font-size: 8px;
+    letter-spacing: 1px;
+  }
+
+  .hero-navbar-label span:first-child {
+    font-size: 15px;
+  }
+
+  .hero-content {
+    width: 88%;
+    margin-left: 6%;
+    margin-top: 0;
+  }
+
+  .hero-content h1 {
+    font-size: clamp(65px, 15vw, 95px);
+  }
+
+  .hero-subtitle {
+    font-size: 8px;
+    letter-spacing: 2px;
+  }
+
+  .hero-description {
+    max-width: 310px;
+    font-size: 12px;
+  }
+
+  .hero-car-label {
+    right: 7%;
+    bottom: 16%;
+  }
+
+  .hero-bottom {
+    left: 6%;
+    right: 6%;
+    font-size: 7px;
+    letter-spacing: 1px;
+  }
+
+  .hero-index {
+    display: none;
+  }
+
+  .hero-caption {
+    display: none;
+  }
+}

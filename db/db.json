@@ -1,15 +1,13 @@
 {
   "products": [
-    
-
-      {
+    {
       "id": "1",
       "name": "Sport Rear Spoiler",
       "category": "Exterior Upgrades",
       "price": 8500,
       "description": "A sporty rear spoiler designed to enhance your car's exterior styling.",
       "stock": 8,
-      "image": "https://placehold.co/600x400?text=Sport+Rear+Spoiler"
+      "image": "/images/products/sport-rear-spoiler.webp"
     },
     {
       "id": "2",
@@ -18,7 +16,7 @@
       "price": 4200,
       "description": "A bold front grille upgrade for a sharper front-end look.",
       "stock": 12,
-      "image": "https://placehold.co/600x400?text=Front+Grille+Upgrade"
+      "image": "/images/products/Front_grille_upgrade_product_pho…_712acb39.jpg"
     },
     {
       "id": "3",
@@ -27,7 +25,7 @@
       "price": 6900,
       "description": "A matching pair of side skirts for a cleaner, sportier profile.",
       "stock": 6,
-      "image": "https://placehold.co/600x400?text=Side+Skirt+Set"
+      "image": "/images/products/ModGarage_side_skirt_set_1f6922ea.jpg"
     },
     {
       "id": "4",
@@ -36,7 +34,7 @@
       "price": 3500,
       "description": "A front bumper lip that adds a low-profile sporty appearance.",
       "stock": 10,
-      "image": "https://placehold.co/600x400?text=Front+Bumper+Lip"
+      "image": "/images/products/Front_bumper_lip_product_photogr…_9cf23f94.jpg"
     },
     {
       "id": "5",
@@ -45,7 +43,7 @@
       "price": 1200,
       "description": "A set of durable mud flaps to help protect the bodywork from road spray.",
       "stock": 20,
-      "image": "https://placehold.co/600x400?text=Universal+Mud+Flaps"
+      "image": "/images/products/Mud_flaps_protecting_bodywork_7a113614.jpg"
     },
     {
       "id": "6",
@@ -54,7 +52,7 @@
       "price": 5200,
       "description": "A comfortable seat cover set designed to refresh your car interior.",
       "stock": 9,
-      "image": "https://placehold.co/600x400?text=Premium+Seat+Cover+Set"
+      "image": "/images/products/Seat_cover_set_photography_4c65f8be.jpg"
     },
     {
       "id": "7",
@@ -63,7 +61,7 @@
       "price": 7800,
       "description": "A sporty steering wheel upgrade for a more engaging cabin feel.",
       "stock": 5,
-      "image": "https://placehold.co/600x400?text=Sport+Steering+Wheel"
+      "image": "/images/products/Sport_steering_wheel_photography_70a0c18d.jpg"
     },
     {
       "id": "8",
@@ -72,7 +70,7 @@
       "price": 2400,
       "description": "Easy-to-clean floor mats that help protect the car's flooring.",
       "stock": 15,
-      "image": "https://placehold.co/600x400?text=All-Weather+Floor+Mats"
+      "image": "/images/products/Floor_mats_product_photography_c2bd2395.jpg"
     },
     {
       "id": "9",
@@ -81,7 +79,7 @@
       "price": 1600,
       "description": "A stylish aluminium-look gear knob for a neat interior upgrade.",
       "stock": 18,
-      "image": "https://placehold.co/600x400?text=Aluminium+Gear+Knob"
+      "image": "/images/products/Aluminium_gear_knob_product_phot…_87b1efa4.jpg"
     },
     {
       "id": "10",
@@ -90,19 +88,17 @@
       "price": 850,
       "description": "A compact organizer for keeping small cabin essentials in place.",
       "stock": 25,
-      "image": "https://placehold.co/600x400?text=Dashboard+Organizer"
+      "image": "/images/products/Dashboard_organizer_product_phot…_0e54c1cc.jpg"
     },
-
-     {
+    {
       "id": "11",
       "name": "LED Headlight Pair",
       "category": "Lighting",
       "price": 3200,
       "description": "A pair of LED headlights for bright, clear road illumination.",
       "stock": 10,
-      "image": "https://placehold.co/600x400?text=LED+Headlight+Pair"
+      "image": "/images/products/LED_headlight_pair_photograph_4b979153.jpg"
     },
-   
     {
       "id": "12",
       "name": "LED Fog Light Kit",
@@ -110,7 +106,7 @@
       "price": 2100,
       "description": "A fog light kit designed to improve visibility in misty conditions.",
       "stock": 7,
-      "image": "https://placehold.co/600x400?text=LED+Fog+Light+Kit"
+      "image": "/images/products/LED_fog_light_kit_24a9259f.jpg"
     },
     {
       "id": "13",
@@ -119,7 +115,7 @@
       "price": 4600,
       "description": "A tail light set that refreshes the rear appearance of your vehicle.",
       "stock": 6,
-      "image": "https://placehold.co/600x400?text=Red+LED+Tail+Light+Set"
+      "image": "/images/products/ModGarage_red_LED_tail_light_50e4ee74.jpg"
     },
     {
       "id": "14",
@@ -128,7 +124,7 @@
       "price": 1450,
       "description": "An ambient lighting kit for adding a subtle glow inside the cabin.",
       "stock": 14,
-      "image": "https://placehold.co/600x400?text=Interior+Ambient+LED+Kit"
+      "image": "/images/products/Interior_ambient_LED_kit_3f19cc31.jpg"
     },
     {
       "id": "15",
@@ -137,7 +133,7 @@
       "price": 1850,
       "description": "A pair of sequential-style indicator lamps for a modern look.",
       "stock": 11,
-      "image": "https://placehold.co/600x400?text=Sequential+Indicator+Pair"
+      "image": "/images/products/Sequential_indicator_pair_produc…_7d1ff1b7.jpg"
     },
     {
       "id": "16",
@@ -146,7 +142,7 @@
       "price": 9200,
       "description": "A modern 17-inch alloy wheel; confirm fitment before purchase.",
       "stock": 4,
-      "image": "https://placehold.co/600x400?text=17-inch+Alloy+Wheel"
+      "image": "/images/products/Alloy_wheel_product_photograph_3d3e57f5.jpg"
     },
     {
       "id": "17",
@@ -155,7 +151,7 @@
       "price": 5600,
       "description": "A road tyre option; select the correct size for your vehicle.",
       "stock": 8,
-      "image": "https://placehold.co/600x400?text=Performance+Road+Tyre"
+      "image": "/images/products/Road_tyre_product_photograph_28f73815.jpg"
     },
     {
       "id": "18",
@@ -164,7 +160,7 @@
       "price": 1800,
       "description": "A set of wheel covers for a refreshed wheel appearance.",
       "stock": 13,
-      "image": "https://placehold.co/600x400?text=Sport+Wheel+Cover+Set"
+      "image": "/images/products/Sport_wheel_cover_set_photograph_3e138c45.jpg"
     },
     {
       "id": "19",
@@ -173,7 +169,7 @@
       "price": 1250,
       "description": "A locking wheel nut set intended to help deter wheel theft.",
       "stock": 16,
-      "image": "https://placehold.co/600x400?text=Locking+Wheel+Nut+Set"
+      "image": "/images/products/Locking_wheel_nut_set_59570017.jpg"
     },
     {
       "id": "20",
@@ -182,9 +178,8 @@
       "price": 2200,
       "description": "A pair of wheel spacers; professional fitment and compatibility checks are required.",
       "stock": 5,
-      "image": "https://placehold.co/600x400?text=Wheel+Spacer+Pair"
+      "image": "/images/products/Wheel_spacer_pair_photography_d3eada13.jpg"
     },
-
     {
       "id": "21",
       "name": "High-Flow Air Filter",
@@ -192,7 +187,7 @@
       "price": 1900,
       "description": "A replacement air filter for compatible vehicle intake systems.",
       "stock": 12,
-      "image": "https://placehold.co/600x400?text=High-Flow+Air+Filter"
+      "image": "/images/products/High-Flow_Air_Filter_product_pho…_0fd8a059.jpg"
     },
     {
       "id": "22",
@@ -201,7 +196,7 @@
       "price": 14500,
       "description": "An exhaust upgrade component; verify local regulations and vehicle compatibility.",
       "stock": 3,
-      "image": "https://placehold.co/600x400?text=Cat-Back+Exhaust+Component"
+      "image": "/images/products/Exhaust_component_product_photog…_c1faf89b.jpg"
     },
     {
       "id": "23",
@@ -210,7 +205,7 @@
       "price": 28500,
       "description": "A suspension upgrade kit for compatible vehicles; professional installation required.",
       "stock": 2,
-      "image": "https://placehold.co/600x400?text=Sport+Suspension+Kit"
+      "image": "/images/products/Suspension_kit_product_photograph_92bbb366.jpg"
     },
     {
       "id": "24",
@@ -219,7 +214,7 @@
       "price": 3800,
       "description": "A brake pad set for compatible vehicles; choose the correct specification.",
       "stock": 7,
-      "image": "https://placehold.co/600x400?text=Performance+Brake+Pad+Set"
+      "image": "/images/products/Brake_pad_set_photography_c4994609.jpg"
     },
     {
       "id": "25",
@@ -228,7 +223,7 @@
       "price": 2600,
       "description": "A set of iridium spark plugs for compatible engines.",
       "stock": 10,
-      "image": "https://placehold.co/600x400?text=Iridium+Spark+Plug+Set"
+      "image": "/images/products/Iridium_spark_plug_set_28c1721b.jpg"
     },
     {
       "id": "26",
@@ -237,7 +232,7 @@
       "price": 550,
       "description": "A car wash shampoo formulated for routine exterior cleaning.",
       "stock": 30,
-      "image": "https://placehold.co/600x400?text=Car+Wash+Shampoo"
+      "image": "/images/products/Car_wash_shampoo_product_photogr…_8ca20618.jpg"
     },
     {
       "id": "27",
@@ -246,7 +241,7 @@
       "price": 950,
       "description": "A wax polish for adding shine and a protective finish to paintwork.",
       "stock": 22,
-      "image": "https://placehold.co/600x400?text=Carnauba+Wax+Polish"
+      "image": "/images/products/Wax_polish_product_photography_ca533020.jpg"
     },
     {
       "id": "28",
@@ -255,7 +250,7 @@
       "price": 780,
       "description": "A polishing compound for suitable automotive paint finishes; follow product directions.",
       "stock": 18,
-      "image": "https://placehold.co/600x400?text=Paint+Polishing+Compound"
+      "image": "/images/products/ModGarage_paint_polishing_compound_0d76d633.jpg"
     },
     {
       "id": "29",
@@ -264,16 +259,16 @@
       "price": 450,
       "description": "A pack of soft microfiber towels for cleaning and drying.",
       "stock": 40,
-      "image": "https://placehold.co/600x400?text=Microfiber+Towel+Pack"
+      "image": "/images/products/Microfiber_towel_pack_cleaning_b625f07c.jpg"
     },
-     {
+    {
       "id": "30",
       "name": "Car Detailing Kit",
       "category": "Car Care & Detailing",
       "price": 1850,
       "description": "A starter kit of car-care tools for interior and exterior detailing.",
       "stock": 12,
-      "image": "https://placehold.co/600x400?text=Car+Detailing+Kit"
+      "image": "/images/products/Car_detailing_kit_photography_770d255f.jpg"
     },
     {
       "id": "31",
@@ -282,7 +277,7 @@
       "price": 4200,
       "description": "A dashboard camera for recording journeys; check memory-card compatibility.",
       "stock": 7,
-      "image": "https://placehold.co/600x400?text=Full+HD+Dash+Camera"
+      "image": "/images/products/Dash_camera_product_photograph_78c9e5a1.jpg"
     },
     {
       "id": "32",
@@ -291,7 +286,7 @@
       "price": 2350,
       "description": "A parking sensor kit to help with low-speed parking awareness.",
       "stock": 9,
-      "image": "https://placehold.co/600x400?text=Parking+Sensor+Kit"
+      "image": "/images/products/Parking_sensor_kit_product_photo…_4042eb33.jpg"
     },
     {
       "id": "33",
@@ -300,7 +295,7 @@
       "price": 650,
       "description": "An adjustable phone holder for convenient in-car navigation.",
       "stock": 28,
-      "image": "https://placehold.co/600x400?text=Adjustable+Phone+Holder"
+      "image": "/images/products/Adjustable_phone_holder_product_…_51b39b89.jpg"
     },
     {
       "id": "34",
@@ -309,7 +304,7 @@
       "price": 550,
       "description": "A compact car charger with two USB charging ports.",
       "stock": 24,
-      "image": "https://placehold.co/600x400?text=Dual+USB+Car+Charger"
+      "image": "/images/products/Dual_USB_Car_Charger_6fdef20c.jpg"
     },
     {
       "id": "35",
@@ -318,11 +313,8 @@
       "price": 1100,
       "description": "A Bluetooth FM adapter for compatible car audio systems.",
       "stock": 15,
-      "image": "https://placehold.co/600x400?text=Bluetooth+FM+Adapter"
+      "image": "/images/products/Bluetooth_FM_adapter_product_pho…_fc1532f6.jpg"
     }
-
-
-
   ],
   "users": [
     {
@@ -330,8 +322,261 @@
       "email": "nasla@gmail.com",
       "password": "111111",
       "id": "GK1FlNs42-M"
+    },
+    {
+      "fullName": "fathima amna koduvaparamban",
+      "email": "amneyy@gmail.com",
+      "password": "222222",
+      "id": "u_XlKLMGDKE"
+    },
+    {
+      "fullName": "mraslahkodakkadan",
+      "email": "aslahhh@gmail.com",
+      "password": "333333",
+      "id": "RK5ZqwA1MQk"
     }
   ],
-  "orders": [],
+  "orders": [
+    {
+      "userId": "GK1FlNs42-M",
+      "customerName": "nslaah",
+      "email": "nasla@gmail.com",
+      "items": [
+        {
+          "id": "1",
+          "name": "Sport Rear Spoiler",
+          "category": "Exterior Upgrades",
+          "price": 8500,
+          "description": "A sporty rear spoiler designed to enhance your car's exterior styling.",
+          "stock": 8,
+          "image": "/images/products/sport-rear-spoiler.webp",
+          "quantity": 1
+        }
+      ],
+      "totalPrice": 8500,
+      "status": "Pending",
+      "createdAt": "2026-10-30T15:14:26.929Z",
+      "id": "6Hrdnwdxvsk"
+    },
+    {
+      "userId": "GK1FlNs42-M",
+      "customerName": "nslaah",
+      "email": "nasla@gmail.com",
+      "items": [
+        {
+          "id": "3",
+          "name": "Side Skirt Set",
+          "category": "Exterior Upgrades",
+          "price": 6900,
+          "description": "A matching pair of side skirts for a cleaner, sportier profile.",
+          "stock": 6,
+          "image": "/images/products/ModGarage_side_skirt_set_1f6922ea.jpg",
+          "quantity": 1
+        }
+      ],
+      "totalPrice": 6900,
+      "status": "Pending",
+      "createdAt": "2026-10-30T15:19:04.185Z",
+      "id": "oxdsci96no8"
+    },
+    {
+      "userId": "GK1FlNs42-M",
+      "customerName": "nslaah",
+      "email": "nasla@gmail.com",
+      "items": [
+        {
+          "id": "1",
+          "name": "Sport Rear Spoiler",
+          "category": "Exterior Upgrades",
+          "price": 8500,
+          "description": "A sporty rear spoiler designed to enhance your car's exterior styling.",
+          "stock": 8,
+          "image": "/images/products/sport-rear-spoiler.webp",
+          "quantity": 4
+        }
+      ],
+      "totalPrice": 34000,
+      "status": "Pending",
+      "createdAt": "2026-11-03T11:04:08.888Z",
+      "id": "G8tkDDjpIGE"
+    },
+    {
+      "userId": "GK1FlNs42-M",
+      "customerName": "nslaah",
+      "email": "nasla@gmail.com",
+      "items": [
+        {
+          "id": "6",
+          "name": "Premium Seat Cover Set",
+          "category": "Interior Upgrades",
+          "price": 5200,
+          "description": "A comfortable seat cover set designed to refresh your car interior.",
+          "stock": 9,
+          "image": "/images/products/Seat_cover_set_photography_4c65f8be.jpg",
+          "quantity": 1
+        }
+      ],
+      "totalPrice": 5200,
+      "status": "Pending",
+      "createdAt": "2026-11-04T06:35:34.508Z",
+      "id": "BVzgIxluoq4"
+    },
+    {
+      "userId": "GK1FlNs42-M",
+      "customerName": "nslaah",
+      "email": "nasla@gmail.com",
+      "items": [
+        {
+          "id": "2",
+          "name": "Front Grille Upgrade",
+          "category": "Exterior Upgrades",
+          "price": 4200,
+          "description": "A bold front grille upgrade for a sharper front-end look.",
+          "stock": 12,
+          "image": "/images/products/Front_grille_upgrade_product_pho…_712acb39.jpg",
+          "quantity": 1
+        }
+      ],
+      "totalPrice": 4200,
+      "status": "Pending",
+      "createdAt": "2026-11-04T06:36:30.075Z",
+      "id": "eGPwQp9BtPQ"
+    },
+    {
+      "userId": "GK1FlNs42-M",
+      "customerName": "nslaah",
+      "email": "nasla@gmail.com",
+      "items": [
+        {
+          "id": "1",
+          "name": "Sport Rear Spoiler",
+          "category": "Exterior Upgrades",
+          "price": 8500,
+          "description": "A sporty rear spoiler designed to enhance your car's exterior styling.",
+          "stock": 8,
+          "image": "/images/products/sport-rear-spoiler.webp",
+          "quantity": 6
+        }
+      ],
+      "totalPrice": 51000,
+      "status": "Pending",
+      "createdAt": "2026-11-04T10:38:43.285Z",
+      "id": "maBeShYYw6s"
+    },
+    {
+      "userId": "u_XlKLMGDKE",
+      "customerName": "fathima amna koduvaparamban",
+      "email": "amneyy@gmail.com",
+      "items": [
+        {
+          "id": "1",
+          "name": "Sport Rear Spoiler",
+          "category": "Exterior Upgrades",
+          "price": 8500,
+          "description": "A sporty rear spoiler designed to enhance your car's exterior styling.",
+          "stock": 8,
+          "image": "/images/products/sport-rear-spoiler.webp",
+          "quantity": 1
+        }
+      ],
+      "totalPrice": 8500,
+      "status": "Pending",
+      "createdAt": "2026-11-04T13:31:16.525Z",
+      "id": "VurWQGSCHKA"
+    },
+    {
+      "userId": "u_XlKLMGDKE",
+      "customerName": "fathima amna koduvaparamban",
+      "email": "amneyy@gmail.com",
+      "items": [
+        {
+          "id": "1",
+          "name": "Sport Rear Spoiler",
+          "category": "Exterior Upgrades",
+          "price": 8500,
+          "description": "A sporty rear spoiler designed to enhance your car's exterior styling.",
+          "stock": 8,
+          "image": "/images/products/sport-rear-spoiler.webp",
+          "quantity": 1
+        }
+      ],
+      "totalPrice": 8500,
+      "status": "Pending",
+      "createdAt": "2026-11-04T13:37:19.239Z",
+      "id": "enKooM_7D20"
+    },
+    {
+      "userId": "u_XlKLMGDKE",
+      "customerName": "fathima amna koduvaparamban",
+      "email": "amneyy@gmail.com",
+      "phone": "1111111111",
+      "deliveryAddress": "malappuram kinfra",
+      "paymentMethod": "Cash on Delivery",
+      "items": [
+        {
+          "id": "1",
+          "name": "Sport Rear Spoiler",
+          "category": "Exterior Upgrades",
+          "price": 8500,
+          "description": "A sporty rear spoiler designed to enhance your car's exterior styling.",
+          "stock": 8,
+          "image": "/images/products/sport-rear-spoiler.webp",
+          "quantity": 1
+        }
+      ],
+      "totalPrice": 8500,
+      "status": "Pending",
+      "createdAt": "2026-11-04T14:53:02.508Z",
+      "id": "gZ0h8exS8lI"
+    },
+    {
+      "userId": "u_XlKLMGDKE",
+      "customerName": "fathima amna koduvaparamban",
+      "email": "amneyy@gmail.com",
+      "phone": "1111111111",
+      "deliveryAddress": "calicut , kinfra",
+      "paymentMethod": "Cash on Delivery",
+      "items": [
+        {
+          "id": "2",
+          "name": "Front Grille Upgrade",
+          "category": "Exterior Upgrades",
+          "price": 4200,
+          "description": "A bold front grille upgrade for a sharper front-end look.",
+          "stock": 12,
+          "image": "/images/products/Front_grille_upgrade_product_pho…_712acb39.jpg",
+          "quantity": 1
+        }
+      ],
+      "totalPrice": 4200,
+      "status": "Pending",
+      "createdAt": "2026-11-04T14:56:54.089Z",
+      "id": "LP5gwNv2tAo"
+    },
+    {
+      "userId": "u_XlKLMGDKE",
+      "customerName": "fathima amna koduvaparamban",
+      "email": "amneyy@gmail.com",
+      "phone": "1111111111",
+      "deliveryAddress": "yyyyy",
+      "paymentMethod": "Cash on Delivery",
+      "items": [
+        {
+          "id": "1",
+          "name": "Sport Rear Spoiler",
+          "category": "Exterior Upgrades",
+          "price": 8500,
+          "description": "A sporty rear spoiler designed to enhance your car's exterior styling.",
+          "stock": 8,
+          "image": "/images/products/sport-rear-spoiler.webp",
+          "quantity": 1
+        }
+      ],
+      "totalPrice": 8500,
+      "status": "Pending",
+      "createdAt": "2026-11-04T14:58:55.016Z",
+      "id": "2lFi7XHdGsA"
+    }
+  ],
   "$schema": "./node_modules/json-server/schema.json"
 }

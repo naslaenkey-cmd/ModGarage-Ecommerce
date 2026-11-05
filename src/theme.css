@@ -1,0 +1,135 @@
+
+/* ========================================
+   MODGARAGE - PREMIUM DARK THEME
+   ======================================== */
+
+:root {
+  /* Font */
+  font-family: Inter, system-ui, Arial, sans-serif;
+
+  /* Background colors */
+  --bg-primary: #0B0F14;
+  --bg-secondary: #11161D;
+  --bg-card: #171C23;
+
+  /* Border colors */
+  --border-color: #30343B;
+
+  /* Text colors */
+  --text-primary: #F5F5F4;
+  --text-secondary: #A3AAB5;
+
+  /* Premium champagne gold */
+  --accent-color: #D6B36A;
+  --accent-hover: #E8C982;
+
+  /* Status colors */
+  --success-color: #22C55E;
+  --error-color: #F87171;
+
+  /* Global settings */
+  color: var(--text-primary);
+  background-color: var(--bg-primary);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Apply consistent box sizing */
+* {
+  box-sizing: border-box;
+}
+
+/* Main page */
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--text-primary);
+}
+
+/* Paragraphs */
+p {
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+/* Links */
+a {
+  color: var(--accent-color);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: var(--accent-hover);
+}
+
+/* Buttons */
+button {
+  font: inherit;
+  cursor: pointer;
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease,
+    border-color 0.2s ease;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+/* Form elements */
+input,
+select,
+textarea {
+  font: inherit;
+  color: var(--text-primary);
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 10px 12px;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: var(--text-secondary);
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  outline: 2px solid var(--accent-color);
+  outline-offset: 1px;
+}
+
+/* Selection highlight */
+::selection {
+  background-color: var(--accent-color);
+  color: var(--bg-primary);
+}
+
+/* Images */
+img {
+  max-width: 100%;
+}
+
+/* Scrollbar */
+html {
+  scrollbar-color: var(--border-color) var(--bg-primary);
+  scroll-behavior: smooth;
+}

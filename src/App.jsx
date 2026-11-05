@@ -1,31 +1,42 @@
 
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
-import { useDispatch, useSelector } from "react-redux";
-import ProductDetails from "./pages/ProductDetails";
-import Products from "./pages/Products";
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+  Navigate,
+  Outlet,
+} from "react-router-dom";
+
+import { useSelector } from "react-redux";
+import { useEffect } from "react";
+
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 import Login from "./pages/Login";
 import Register from "./pages/Register";
+import Dashboard from "./pages/Dashboard";
+import Products from "./pages/Products";
+import ProductDetails from "./pages/ProductDetails";
+import Cart from "./pages/Cart";
+import Home from "./pages/Home";
+import Wishlist from "./pages/Wishlist";
+import Checkout from "./pages/Checkout";
+import OrderHistory from "./pages/OrderHistory";
+
 import ProtectedRoute from "./routes/ProtectedRoute";
-import { logout } from "./redux/slices/authSlice";
 
-function Dashboard() {
-  const dispatch = useDispatch();
-  const user = useSelector((state) => state.auth.user);
-
-  function handleLogout() {
-    dispatch(logout());
-  }
-
+// Main Layout with Navbar and Footer
+function MainLayout() {
   return (
-    <div>
-      <h1>Welcome to ModGarage!</h1>
-
-      <p>Hello, {user?.fullName}!</p>
-      <p>You have successfully logged in.</p>
-
-      <button onClick={handleLogout}>Logout</button>
-    </div>
+    <>
+      <Navbar />
+      <Outlet />
+      <Footer />
+    </>
   );
 }
 
@@ -34,32 +45,53 @@ function App() {
     (state) => state.auth.isAuthenticated
   );
 
+  const wishlistItems = useSelector(
+    (state) => state.wishlist.items
+  );
+
+  // Save wishlist to localStorage
+  useEffect(() => {
+    localStorage.setItem(
+      "wishlist",
+      JSON.stringify(wishlistItems)
+    );
+  }, [wishlistItems]);
+
   return (
     <BrowserRouter>
       <Routes>
-        <Route
-          path="/"
-          element={
-            <Navigate
-              to={isAuthenticated ? "/dashboard" : "/login"}
-              replace
-            />
-          }
-        />
 
+        {/* Public Home */}
+        <Route element={<MainLayout />}>
+          <Route path="/" element={<Home />} />
+        </Route>
+
+        {/* Authentication Pages - No Navbar or Footer */}
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
 
+        {/* Protected Pages */}
         <Route element={<ProtectedRoute />}>
-          <Route path="/dashboard" element={<Dashboard />} />
+          <Route element={<MainLayout />}>
+            <Route path="/dashboard" element={<Dashboard />} />
+            <Route path="/cart" element={<Cart />} />
+            <Route path="/wishlist" element={<Wishlist />} />
+            <Route path="/checkout" element={<Checkout />} />
+            <Route path="/orders" element={<OrderHistory />} />
+          </Route>
         </Route>
 
-         <Route path="/products" element={<Products />} />
-         <Route
-         path="/products/:id"
-       element={<ProductDetails />}
-      />
+        {/* Product Pages */}
+        <Route element={<MainLayout />}>
+          <Route path="/products" element={<Products />} />
 
+          <Route
+            path="/products/:id"
+            element={<ProductDetails />}
+          />
+        </Route>
+
+        {/* Unknown Routes */}
         <Route
           path="*"
           element={
@@ -70,8 +102,18 @@ function App() {
           }
         />
 
-       
       </Routes>
+
+      {/* Global Toast Notifications */}
+      <ToastContainer
+        position="top-right"
+        autoClose={2500}
+        hideProgressBar={false}
+        newestOnTop
+        closeOnClick
+        pauseOnHover
+        theme="dark"
+      />
     </BrowserRouter>
   );
 }

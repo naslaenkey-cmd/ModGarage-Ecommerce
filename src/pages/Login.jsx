@@ -4,14 +4,15 @@ import { Link, useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
 
 import { loginSuccess } from "../redux/slices/authSlice";
-import api from "../services/api";
-import heroImage from "../assets/hero.jpg";
+import { useLogin } from "../hooks/useAuth";
 
-import "./Login.css";
+import heroImage from "../assets/hero.jpg";
 
 function Login() {
   const dispatch = useDispatch();
   const navigate = useNavigate();
+
+  const loginMutation = useLogin();
 
   const [formData, setFormData] = useState({
     email: "",
@@ -19,8 +20,6 @@ function Login() {
   });
 
   const [showPassword, setShowPassword] = useState(false);
-  const [error, setError] = useState("");
-  const [isLoading, setIsLoading] = useState(false);
 
   const handleChange = (e) => {
     setFormData({
@@ -29,115 +28,115 @@ function Login() {
     });
   };
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
 
-    try {
-      setIsLoading(true);
-      setError("");
-
-      const response = await api.get("/users");
-
-      const user = response.data.find(
-        (item) =>
-          item.email.toLowerCase() === formData.email.trim().toLowerCase() &&
-          item.password === formData.password
-      );
-
-      if (!user) {
-        setError("Invalid email or password.");
-        return;
-      }
-
-      dispatch(loginSuccess(user));
-      navigate("/dashboard");
-    } catch (err) {
-      setError("Something went wrong. Please try again.");
-    } finally {
-      setIsLoading(false);
-    }
+    loginMutation.mutate(formData, {
+      onSuccess: (user) => {
+        dispatch(loginSuccess(user));
+        navigate("/", { replace: true });
+      },
+    });
   };
 
   return (
-    <div className="auth-page">
-      <div
-        className="auth-visual"
-        style={{ backgroundImage: `url(${heroImage})` }}
-      >
-        <div className="auth-visual-overlay">
-          <h1>MODGARAGE</h1>
-          <h2>WELCOME BACK.</h2>
-          <p>
-            Your garage. Your style. Your rules.
-            Discover premium automotive upgrades.
-          </p>
+    <div className="min-h-screen flex items-center justify-center bg-[#080808] p-4">
+      <div className="w-full max-w-5xl overflow-hidden rounded-2xl bg-[#151515] shadow-2xl md:flex">
+
+        {/* Left Image Section */}
+        <div className="hidden md:block md:w-1/2">
+          <img
+            src={heroImage}
+            alt="ModGarage"
+            className="h-full w-full object-cover"
+          />
         </div>
-      </div>
 
-      <div className="auth-form-section">
-        <div className="auth-form-container">
-          <span className="auth-tag">MODGARAGE ACCOUNT</span>
+        {/* Right Login Section */}
+        <div className="w-full p-8 md:w-1/2 md:p-12">
 
-          <h1>LOGIN</h1>
+          <h1 className="mb-2 text-3xl font-bold text-[#D6B36A]">
+            Welcome Back
+          </h1>
 
-          <p className="auth-description">
-            Sign in to continue your automotive journey.
+          <p className="mb-8 text-gray-400">
+            Login to your ModGarage account
           </p>
 
-          <form className="auth-form" onSubmit={handleSubmit}>
-            {error && <p className="auth-error">{error}</p>}
+          <form onSubmit={handleSubmit} className="space-y-6">
 
-            <div className="auth-field">
-              <label htmlFor="login-email">Email Address</label>
+            {/* Email */}
+            <div>
+              <label className="mb-2 block text-sm text-gray-300">
+                Email Address
+              </label>
 
               <input
-                id="login-email"
                 type="email"
                 name="email"
-                placeholder="Enter your email"
                 value={formData.email}
                 onChange={handleChange}
+                placeholder="Enter your email"
                 required
+                className="w-full rounded-lg border border-gray-700 bg-[#202020] px-4 py-3 text-white outline-none focus:border-[#D6B36A]"
               />
             </div>
 
-            <div className="auth-field">
-              <label htmlFor="login-password">Password</label>
+            {/* Password */}
+            <div>
+              <label className="mb-2 block text-sm text-gray-300">
+                Password
+              </label>
 
-              <div className="password-input-wrapper">
+              <div className="relative">
                 <input
-                  id="login-password"
                   type={showPassword ? "text" : "password"}
                   name="password"
-                  placeholder="Enter your password"
                   value={formData.password}
                   onChange={handleChange}
+                  placeholder="Enter your password"
                   required
+                  className="w-full rounded-lg border border-gray-700 bg-[#202020] px-4 py-3 pr-20 text-white outline-none focus:border-[#D6B36A]"
                 />
 
                 <button
                   type="button"
-                  className="password-toggle"
-                  onClick={() => setShowPassword((prev) => !prev)}
+                  onClick={() => setShowPassword(!showPassword)}
+                  className="absolute right-4 top-1/2 -translate-y-1/2 text-sm text-[#D6B36A]"
                 >
                   {showPassword ? "HIDE" : "SHOW"}
                 </button>
               </div>
             </div>
 
+            {/* Error */}
+            {loginMutation.isError && (
+              <p className="text-sm text-red-500">
+                {loginMutation.error.message}
+              </p>
+            )}
+
+            {/* Login Button */}
             <button
               type="submit"
-              className="auth-submit-button"
-              disabled={isLoading}
+              disabled={loginMutation.isPending}
+              className="w-full rounded-lg bg-[#D6B36A] py-3 font-semibold text-black transition hover:bg-[#E8C982] disabled:cursor-not-allowed disabled:opacity-50"
             >
-              {isLoading ? "LOGGING IN..." : "LOGIN"}
+              {loginMutation.isPending ? "Logging in..." : "LOGIN"}
             </button>
+
           </form>
 
-          <p className="auth-switch">
-            Don't have an account?
-            <Link to="/register">Create Account</Link>
+          <p className="mt-6 text-center text-sm text-gray-400">
+            Don't have an account?{" "}
+            <Link
+              to="/register"
+              className="font-semibold text-[#D6B36A] hover:underline"
+            >
+              Register
+            </Link>
           </p>
+
         </div>
       </div>
     </div>

@@ -1,17 +1,15 @@
-
 import { configureStore } from "@reduxjs/toolkit";
-import authReducer from "./slices/authSlice";
-import productReducer from "./slices/productSlice";
-import cartReducer from "./slices/cartSlice";
-import wishlistReducer from "./slices/wishlistSlice";
-import orderReducer from "./slices/orderSlice";
 
-  export const store = configureStore({
+import authReducer from "./slices/authSlice";
+import adminAuthReducer from "./slices/adminAuthSlice";
+import adminSliceReducer from "./slices/adminSlice";
+
+export const store = configureStore({
   reducer: {
     auth: authReducer,
-    products:productReducer,
-    cart:cartReducer,
-    wishlist: wishlistReducer,
-    orders: orderReducer,
+    adminAuth: adminAuthReducer,
+
+    // New task: Fetch all 35 products
+    adminTask: adminSliceReducer,
   },
 });
